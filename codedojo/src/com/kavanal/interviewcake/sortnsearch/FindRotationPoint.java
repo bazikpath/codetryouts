@@ -40,7 +40,6 @@ public class FindRotationPoint {
 
     // tests
 
-/*
     @Test
     public void smallArrayTest() {
         final int actual = findRotationPoint(new String[] {"cape", "cake"});
@@ -55,7 +54,6 @@ public class FindRotationPoint {
         final int expected = 4;
         assertEquals(expected, actual);
     }
-*/
 
     @Test
     public void largeArrayTest() {
