@@ -9,6 +9,7 @@ import java.util.Map;
 public class SubStringInString {
 
     public static boolean isInString(String input, String match) {
+
         String[] inputs = input.split(" ");
         String[] matchWords = match.split(" ");
         Map<String, Long> countsMap = getCountsMap(matchWords);
